@@ -8,46 +8,98 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         .buddha-image {
-        width: 300px; 
-        border: 5px solid #007bff;
-        border-radius: 10px; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        margin-top: 40px;
-    }
-    .buddha-image:hover {
-        transform: scale(1.05); 
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
-        border-color: #ff5722;
-    }
+            width: 300px;
+            border: 5px solid #007bff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin-top: 40px;
+        }
+
+        .buddha-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            border-color: #ff5722;
+        }
+
+
+        @media screen and (max-width: 1024px) {
+            .buddha-container {
+                max-width: 90%;
+                flex-direction: column;
+                /* Stack content vertically */
+                text-align: center;
+            }
+
+            .buddha-image {
+                width: 80%;
+                max-width: 280px;
+            }
+
+            .buddha-content {
+                padding: 10px;
+            }
+
+            .buddha-content h2 {
+                font-size: 22px;
+            }
+
+            .buddha-content p {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .buddha-container {
+                flex-direction: column;
+                text-align: center;
+                padding: 15px;
+            }
+
+            .buddha-image {
+                width: 90%;
+                max-width: 250px;
+            }
+
+            .buddha-content h2 {
+                font-size: 20px;
+            }
+
+            .buddha-content p {
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .navbar {
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            .buddha-image {
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .buddha-content h2 {
+                font-size: 18px;
+            }
+
+            .buddha-content p {
+                font-size: 13px;
+            }
+
+            footer {
+                font-size: 14px;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="logo">Dr. B.R. Ambedkar</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Certificate">Certificate</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Application">Application</a>
-            </li>
-            <li><a href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Cases">Cases</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Mahad-Satyagraha">Mahad
-                    Satyagraha</a></li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Speeches">Speeches</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Publications">Publications</a>
-            </li>
-            <li><a href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Gallery">Photo Gallery</a></li>
-        </ul>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </nav>
     <section class="buddha-section">
         <div class="buddha-container">
@@ -56,8 +108,8 @@
                 <h2>The Buddha and His Dhamma</h2>
                 <p>
                     <strong>📖 Summary: The Buddha and His Dhamma - </strong>
-                    The Buddha and His Dhamma is the final and most profound work of Dr. B.R. Ambedkar, published
-                    posthumously in 1957. It serves as both a biography of Gautama Buddha and an in-depth exploration of
+                    The Buddha and His Dhamma is the final and most profound work of <strong>Dr. B.R. Ambedkar,</strong> published
+                    posthumously in 1957. It serves as both a biography of <strong>Gautama Buddha</strong> and an in-depth exploration of
                     his teachings, philosophy, and impact on society. Ambedkar wrote this book not only to present
                     Buddha’s life but also to reinterpret his teachings in a rational and modern context, free from
                     later distortions by religious traditions.

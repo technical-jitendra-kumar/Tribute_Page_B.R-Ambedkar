@@ -21,34 +21,77 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
             border-color: #ff5722;
         }
+        /* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .Booksintelectual-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+    
+    .Booksintelectual-img {
+        width: 250px;
+    }
+
+    .Booksintelectual-content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Booksintelectual-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Booksintelectual-img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .Booksintelectual-content {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .Booksintelectual-content h2 {
+        font-size: 22px;
+    }
+
+    .Booksintelectual-content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .Booksintelectual-img {
+        width: 90%;
+        max-width: 200px;
+    }
+
+    .Booksintelectual-content h2 {
+        font-size: 20px;
+    }
+
+    .Booksintelectual-content p {
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
     </style>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="logo">Dr. B.R. Ambedkar</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Certificate">Certificate</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Application">Application</a>
-            </li>
-            <li><a href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Cases">Cases</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Mahad-Satyagraha">Mahad
-                    Satyagraha</a></li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Speeches">Speeches</a>
-            </li>
-            <li><a
-                    href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Publications">Publications</a>
-            </li>
-            <li><a href="https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/#Gallery">Photo Gallery</a></li>
-        </ul>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </nav>
     <section class="Booksintelectual-section">
         <div class="Booksintelectual-container">
