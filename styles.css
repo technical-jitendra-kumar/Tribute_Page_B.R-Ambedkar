@@ -6,41 +6,106 @@ body {
     color: #333;
     text-align: center;
 }
-
 header {
-    background-color: #0056b3;
-    color: white;
-    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 75vh; /* Adjust height as needed */
+    background: url('/img/Dr._Bhimrao_Ambedkar.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
+/* Overlay for better readability */
+.header-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for text visibility */
+    padding: 40px;
+    border-radius: 10px;
+    animation: slideUp 1.5s ease-in-out forwards;
+}
+
+/* Profile Image Styling */
+.header-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Text Styling */
 h1 {
-    margin: 0;
-    font-size: 2.5em;
+    font-size: 36px;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: fadeInText 1.5s ease-in-out forwards 0.5s;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0;
+    animation: fadeInText 1.5s ease-in-out forwards 0.8s;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeInText 1.5s ease-in-out forwards 1s;
 }
 
-/* //images of babasaheb */
-.header-image {
-    width: 150px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Makes the image circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-    display: block; /* Centers the image */
-    margin: 0 auto 15px; /* Adds spacing below the image */
-    border: 3px solid #7dd40b; /* Adds a professional border */
-    
-    /* Animation */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.header-image:hover {
-    transform: scale(1.1); /* Slightly enlarges the image on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhances shadow for a popping effect */
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 
 section {
