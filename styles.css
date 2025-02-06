@@ -286,7 +286,6 @@ ul li {
 }
 
 #biography {
-    /* background: linear-gradient(to right, #004080, #0066cc); Blue gradient */
     color: rgb(3, 3, 3);
     padding: 50px 10%;
     text-align: left;
@@ -669,7 +668,6 @@ footer p {
 
 
 /* social and dalit rights */
-/* Header section */
 .intro {
     background-color: #3e3e3e;
     color: white;
@@ -727,19 +725,6 @@ footer p {
 
 .dalit-rights strong {
     color: #2a2a2a;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #3e3e3e;
-    color: white;
-    margin-top: 20px;
-}
-
-footer p {
-    font-size: 1em;
 }
 
 women and socila justic .intro {
