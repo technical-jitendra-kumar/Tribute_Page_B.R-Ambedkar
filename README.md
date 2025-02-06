@@ -41,11 +41,8 @@ This is a simple yet elegant **Tribute Page** dedicated to **Dr. B.R. Ambedkar**
 ## Contributing
 If you would like to contribute, feel free to fork the repository and submit a pull request.
 
-## License
-This project is open-source and available under the **MIT License**.
-
 ## Contact
 For any queries or suggestions, feel free to reach out:
-- **Your Name:** Jitendra Kumar
+- **Name:** Jitendra Kumar
 - **Email:** jitendrakumarjjk10@gmail.com
 
