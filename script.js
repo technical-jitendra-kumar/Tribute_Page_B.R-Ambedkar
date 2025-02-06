@@ -9,3 +9,7 @@ function toggleQuote(selectedCard) {
 
     selectedCard.classList.toggle("active");
 }
+// navigatiob baar
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
