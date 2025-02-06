@@ -190,13 +190,84 @@ p {
 
 
 
-section {
+/* #positions{
     padding: 20px;
     margin: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}   */
+/* General Styling */
+#positions {
+    /* background: linear-gradient(to right, #004080, #0066cc); */
+    background-color: white;
+    color: black;
+    padding: 50px 10%;
+    text-align: center;
 }
+
+/* Heading Styling */
+#positions h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Position Cards Container */
+.positions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Position Cards */
+.position-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect on Cards */
+.position-card:hover {
+    transform: scale(1.05);
+}
+
+/* Personal Details */
+.personal-details {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.personal-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .positions-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .position-card {
+        width: 90%;
+    }
+
+    .personal-details {
+        width: 90%;
+    }
+}
+
 
 ul {
     list-style-type: none;
@@ -210,14 +281,79 @@ ul li {
     border-radius: 5px;
 }
 
-#biography img, #positions img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+#biography {
+    /* background: linear-gradient(to right, #004080, #0066cc); Blue gradient */
+    color: rgb(3, 3, 3);
+    padding: 50px 10%;
+    text-align: left;
 }
+
+/* Biography Layout */
+.bio-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Text Styling */
+.bio-text h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.bio-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bio-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio-text li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Image Styling */
+.bio-image img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .bio-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bio-image img {
+        width: 80%;
+    }
+}
+
 
 /* contribution  */
 
