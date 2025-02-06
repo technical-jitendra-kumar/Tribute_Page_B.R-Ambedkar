@@ -394,6 +394,12 @@ h2 {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+.contribution-card a{
+    text-decoration: none;
+}
+.contribution-card a:hover {
+    text-decoration: none; 
+}
 
 /* Buttons */
 .resources {
@@ -553,4 +559,296 @@ h2 {
     h1 {
         font-size: 2em;
     }
+}
+/* contitution architecture  */
+.intro {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro .subheading {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Biography section */
+.bio {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.bio h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Contributions section */
+.contributions {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.contributions h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contributions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contributions li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contributions strong {
+    color: #2a2a2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+
+/* social and dalit rights */
+/* Header section */
+.intro {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro .subheading {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Biography section */
+.bio, .dalit-rights {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.bio h2, .dalit-rights h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bio p, .dalit-rights p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Dalit Rights Section */
+.dalit-rights h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dalit-rights ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.dalit-rights li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.dalit-rights strong {
+    color: #2a2a2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+women and socila justic
+.intro {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro .subheading {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Biography section */
+.bio, .education-women-rights {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.bio h2, .education-women-rights h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bio p, .education-women-rights p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Education and Women's Rights Section */
+.education-women-rights h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.education-women-rights ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.education-women-rights li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.education-women-rights strong {
+    color: #2a2a2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+/* Established RBI Guidelines */
+/* RBI Guidelines Section */
+.rbi-guidelines h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rbi-guidelines ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.rbi-guidelines li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.rbi-guidelines strong {
+    color: #2a2a2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+/* Labor Reforms & Worker Rights */
+.labor-reforms h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.labor-reforms ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.labor-reforms li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.labor-reforms strong {
+    color: #2a2a2a;
+}
+
+/* books and intellectual */
+/* Intellectual Contributions Section */
+.intellectual-contributions h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.intellectual-contributions ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.intellectual-contributions li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.intellectual-contributions strong {
+    color: #2a2a2a;
 }
